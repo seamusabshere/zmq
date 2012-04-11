@@ -4,7 +4,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["seamus@abshere.net"]
   gem.description   = %q{Drop-in replacement for zmq gem}
   gem.summary       = %q{Drop-in replacement for zmq gem}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/seamusabshere/zmq"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
